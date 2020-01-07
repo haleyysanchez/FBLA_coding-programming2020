@@ -4,6 +4,7 @@ first statement in the file, will become the "main_file" module's
 docstring when the file is imported.
 """
 
+# techonologies used include sqlite3 and Tkinter
 import sqlite3
 from tkinter import *
 from datetime import date
