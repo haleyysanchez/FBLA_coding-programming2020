@@ -1,10 +1,12 @@
 # FBLA_coding-programming2020
 
-One Paragraph of project description goes here
+This repository is for my FBLA coding and programming competition project for the 2019-2020 school year. The topic of the program was to be able to track community service hours and awards of students and store the information persistently. The program utilized Tkinter to code the GUI and sqlite3 to manage the relational database. 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+* uncomment lines 18-30
+* uncomment lines 74-102
 
 ### Prerequisites
 
@@ -60,9 +62,7 @@ Give an example
 
 ## Authors
 
-* **Haley Sanchez** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Haley Sanchez** - *Initial work*
 
 ## Acknowledgments
 
