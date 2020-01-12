@@ -388,19 +388,6 @@ def month_awards():
 ##################
 
 
-# this method would help with navigation within the application
-# def home():
-#     # hide the visibility of the landing page
-#     # write a method with the logic to destroy and reopen the windows
-#     if pr.state() == 'normal':
-#         pr.destroy()
-#     if lh.state() == 'normal':
-#         lh.destroy()
-#     if sa.state() == 'normal':
-#         sa.destroy()
-#     root.deiconify()
-
-
 def help_():
     """
 
