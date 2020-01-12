@@ -1,7 +1,5 @@
 """
-Assuming this is file main_file.py, then this string, being the
-first statement in the file, will become the "main_file" module's
-docstring when the file is imported.
+Documentation done in pydoc format.
 """
 
 # technologies used include sqlite3 and Tkinter
@@ -70,6 +68,38 @@ def insert_stu(stu_id, first_name, last_name, grade, hours):
                   {'id': stu_id, 'first': first_name, 'last': last_name, 'grade': grade,
                    'hours': hours, 'community': csa_community, 'service': csa_service,
                    'achieve': csa_achieve, 'date': date.today()})
+
+
+# need to uncomment to add values into the database
+# c.execute("INSERT INTO students VALUES (467, 'Sarah', 'Gomez', 9, 10, 0, 0, 0, '2020-01-12')")
+# c.execute("INSERT INTO students VALUES (321, 'Corey', 'Smith', 10, 20, 0, 0, 0, '2020-01-12')")
+# c.execute("INSERT INTO students VALUES (738, 'Emily', 'Rodriguez', 11, 30, 0, 0, 0, '2020-01-01')")
+# c.execute("INSERT INTO students VALUES (935, 'Adaline', 'Jones', 12, 40, 0, 0, 0, '2020-02-12')")
+# c.execute("INSERT INTO students VALUES (384, 'Ava', 'Louise', 9, 45, 0, 0, 0, '2020-01-13')")
+# c.execute("INSERT INTO students VALUES (406, 'Sam', 'Evans', 10, 25, 0, 0, 0, '2020-01-12')")
+# c.execute("INSERT INTO students VALUES (425, 'Calvin', 'Scott', 11, 50, 1, 0, 0, '2020-01-02')")
+# c.execute("INSERT INTO students VALUES (278, 'Liam', 'Bradley', 12, 70, 1, 0, 0, '2020-02-12')")
+# c.execute("INSERT INTO students VALUES (342, 'Ashley', 'Robinson', 9, 90, 1, 0, 0, '2020-01-14')")
+# c.execute("INSERT INTO students VALUES (297, 'Royce', 'Freeman', 10, 110, 1, 0, 0, '2020-01-03')")
+# c.execute("INSERT INTO students VALUES (24, 'Mila', 'Santiago', 11, 130, 1, 0, 0, '2020-01-12')")
+# c.execute("INSERT INTO students VALUES (724, 'Laurel', 'Hammond', 12, 150, 1, 0, 0, '2020-02-12')")
+# c.execute("INSERT INTO students VALUES (973, 'Rihanna', 'Cantrell', 9, 170, 1, 0, 0, '2020-01-15')")
+# c.execute("INSERT INTO students VALUES (385, 'Gunner', 'Hooper', 10, 220, 1, 1, 0, '2020-01-04')")
+# c.execute("INSERT INTO students VALUES (793, 'Bryan', 'Hunter', 11, 240, 1, 1, 0, '2020-01-12')")
+# c.execute("INSERT INTO students VALUES (93, 'Julio', 'Weber', 12, 260, 1, 1, 0, '2020-02-12')")
+# c.execute("INSERT INTO students VALUES (267, 'Lauren', 'Whitefield', 9, 280, 1, 1, 0, '2020-01-16')")
+# c.execute("INSERT INTO students VALUES (184, 'Johnathan', 'Huff', 10, 200, 1, 1, 0, '2020-01-05')")
+# c.execute("INSERT INTO students VALUES (321, 'Sayde', 'Alvarro', 11, 300, 1, 1, 0, '2020-01-12')")
+# c.execute("INSERT INTO students VALUES (321, 'Kyla', 'Bellaire', 12, 350, 1, 1, 0, '2020-02-12')")
+# c.execute("INSERT INTO students VALUES (321, 'Kylie', 'Clewis', 9, 400, 1, 1, 0, '2020-01-13')")
+# c.execute("INSERT INTO students VALUES (321, 'Jennifer', 'Muse', 10, 500, 1, 1, 1, '2020-01-06')")
+# c.execute("INSERT INTO students VALUES (321, 'Marie', 'James', 11, 600, 1, 1, 1, '2020-01-12')")
+# c.execute("INSERT INTO students VALUES (321, 'Cole', 'Martin', 12, 550, 1, 1, 1, '2020-02-20')")
+# c.execute("INSERT INTO students VALUES (321, 'Omar', 'Aads', 9, 775, 1, 1, 1, '2020-01-12')")
+# c.execute("INSERT INTO students VALUES (321, 'Brianna', 'Williams', 10, 800, 1, 1, 1, '2020-01-07')")
+# c.execute("INSERT INTO students VALUES (321, 'Allison', 'Moore', 11, 536, 1, 1, 1, '2020-01-12')")
+# c.execute("INSERT INTO students VALUES (321, 'Alysha', 'Taylor', 12, 900, 1, 1, 1, '2020-02-12')")
+# conn.commit()
 
 
 def get_stu_by_name_id(last_name, first_name, stu_id):
@@ -349,9 +379,9 @@ def month_awards():
                'date31': date_m[30]})
     return c.fetchall()
 
+
 # can be used if needed to reset/delete the database for a new school year
 # c.execute("DROP TABLE students")
-
 
 ##################
 # GUI CODE BELOW #
