@@ -5,12 +5,15 @@ This repository is for my FBLA coding and programming competition project for th
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-* uncomment lines 18-30
-* uncomment lines 74-102
+
+* Download this repository as a zip file and open 'main_file.py'
+* Uncomment lines 18-30 and lines 74-102
+* Then run the program for the first time
+*  After running the program once comment lines 18-30 and lines 74-102 so that you dont enter that data into the database twice or create a second students table
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Tkinter and sqlite3 come with Python 3.3 verizon or later
 
 ```
 Give examples
@@ -33,18 +36,6 @@ until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ### And coding style tests
 
