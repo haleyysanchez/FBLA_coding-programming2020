@@ -13,11 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Tkinter and sqlite3 come with Python 3.3 verizon or later
-
-```
-Give examples
-```
+Tkinter and sqlite3 are a part of the Python standard library and come with Python when it is downloaded.
 
 ### Installing
 
@@ -37,14 +33,6 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
@@ -53,10 +41,8 @@ Give an example
 
 ## Authors
 
-* **Haley Sanchez** - *Initial work*
+* **Haley Sanchez**
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Thank you FBLA for giving students a way to showcase their love for computer science!
