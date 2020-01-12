@@ -13,31 +13,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Tkinter and sqlite3 are a part of the Python standard library and come with Python.3.x when it is downloaded.
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Tkinter and sqlite3 are a part of the Python standard library and come with Python 3.x when it is downloaded.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Tkinter](https://docs.python.org/3/library/tkinter.html#tkinter-modules) - The GUI module used
+* [SQLite3](https://docs.python.org/3/library/sqlite3.html) - Relational database management system module used
 
 ## Authors
 
