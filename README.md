@@ -6,10 +6,12 @@ This repository is for my FBLA coding and programming competition project for th
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-* Download this repository as a zip file and open 'main_file.py'
+* Download this repository as a zip file
+* Open the whole folder ('FBLA_coding-programming2020-master') as a project in your preferred IDE
+* Open the 'main_file.py'
 * Uncomment lines 18-30 and lines 74-102
 * Then run the program for the first time
-*  After running the program once comment lines 18-30 and lines 74-102 so that you dont enter that data into the database twice or create a second students table
+* After running the program once comment lines 18-30 and lines 74-102 so that you dont enter that data into the database twice or create a second students table
 
 ### Prerequisites
 
