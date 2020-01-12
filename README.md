@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Tkinter and sqlite3 are a part of the Python standard library and come with Python when it is downloaded.
+Tkinter and sqlite3 are a part of the Python standard library and come with Python.3.x when it is downloaded.
 
 ### Installing
 
