@@ -388,6 +388,19 @@ def month_awards():
 ##################
 
 
+# this method would help with navigation within the application
+# def home():
+#     # hide the visibility of the landing page
+#     # write a method with the logic to destroy and reopen the windows
+#     if pr.state() == 'normal':
+#         pr.destroy()
+#     if lh.state() == 'normal':
+#         lh.destroy()
+#     if sa.state() == 'normal':
+#         sa.destroy()
+#     root.deiconify()
+
+
 def help_():
     """
 
@@ -402,6 +415,60 @@ def help_():
      - If you are wanting to see a list of students who have obtained awards, then click the See Awards button
      
       - If you are wanting to update hours for a student, click on the Log Hours button"""
+    # makes a messagebox appear on top of the screen
+    messagebox.showinfo("Help Info", s)
+
+
+def help_pr():
+    """
+
+        This function generates a message box to display the help information to the user on the Print Report window.
+
+
+        """
+    s = """Help Info Below:
+
+     - Check off the boxes for which lists/tables you would like to see of the students.
+
+     - Click on the X in the top left corner to get rid of this window."""
+    # makes a messagebox appear on top of the screen
+    messagebox.showinfo("Help Info", s)
+
+
+def help_sa():
+    """
+
+        This function generates a message box to display the help information to the user on the See Awards window.
+
+
+        """
+    s = """Help Info Below:
+
+     - Click on the type of award that you would like to see a list of students who have received that award.
+     
+     _ Hit the update button in order to have the table updated with the choice from the drop down list.
+     
+     - Click on the X in the top left corner to get rid of this window."""
+    # makes a messagebox appear on top of the screen
+    messagebox.showinfo("Help Info", s)
+
+
+def help_lh():
+    """
+
+        This function generates a message box to display the help information to the user on the Log Hours window.
+
+
+        """
+    s = """Help Info Below:
+
+     - Make sure to fill in all entry fields where there is a *.
+     
+     _ Capitalize the first letter in the student's first and last names in order to correctly update their hours.
+     
+     - Hit the Submit button at the bottom to update the hours for that student.
+     
+     - Click on the X in the top left corner to get rid of this window."""
     # makes a messagebox appear on top of the screen
     messagebox.showinfo("Help Info", s)
 
@@ -533,7 +600,7 @@ def open_print_report():
     # Button(pr, text="Home", image=photo_image).place(relx=.02, rely=.02, anchor = NW)
 
     # help button below
-    Button(pr, text="Home", image=photo_image1, command=help_).place(relx=.02, rely=.02, anchor = NW)
+    Button(pr, text="Home", image=photo_image1, command=help_pr).place(relx=.02, rely=.02, anchor = NW)
 
     pr.title('FBLA Community Service Tracker')
     title1 = Label(pr, text='Print Report')
@@ -713,7 +780,7 @@ def open_see_awards():
     # Button(sa, text="Home", image=photo_image).place(relx=.02, rely=.02, anchor = NW)
 
     # help button below
-    Button(sa, text="Home", image=photo_image1, command=help_).place(relx=.02, rely=.02, anchor = NW)
+    Button(sa, text="Home", image=photo_image1, command=help_sa).place(relx=.02, rely=.02, anchor = NW)
 
     sa.title('FBLA Community Service Tracker')
     title = Label(sa, text='Awards')
@@ -775,7 +842,7 @@ def open_log_hours():
     # Button(lh, text="Home", image=photo_image).place(relx=.02, rely=.02, anchor = NW)
 
     # help button below
-    Button(lh, text="Home", image=photo_image1, command=help_).place(relx=.02, rely=.02, anchor = NW)
+    Button(lh, text="Home", image=photo_image1, command=help_lh).place(relx=.02, rely=.02, anchor = NW)
 
     lh.title('FBLA Community Service Tracker')
 
