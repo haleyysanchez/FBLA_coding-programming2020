@@ -22,7 +22,7 @@ Tkinter and sqlite3 are a part of the Python standard library and come with Pyth
 
 ## Authors
 
-* **Haley Sanchez**
+* Haley Sanchez
 
 ## Acknowledgments
 
